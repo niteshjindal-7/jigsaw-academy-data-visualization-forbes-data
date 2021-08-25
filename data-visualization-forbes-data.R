@@ -108,3 +108,4 @@ ggplot(auto,aes(x=Company.Advertising,y=Brand.Revenue,label=Brand))+geom_point(a
   scale_size_continuous(name="Brand Value $ (Billions)",breaks=c(6.2,20,37.8))+guides(color=F)+scale_x_continuous(breaks=seq(0.8,5.5,0.1))+
   scale_y_discrete(breaks=seq(40,170,10))+theme(panel.grid.major=element_line("grey"))+theme_bw()+theme(panel.border=element_rect(color="grey",fill=NA))+
   theme(plot.title=element_text(size=25))+theme(plot.title=element_text(face="bold"))+theme(panel.grid.minor=element_line("grey"))
+
